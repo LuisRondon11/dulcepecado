@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Estilos/dashboard.css">
+    <link rel="icon" href="./Recursos/logoNegro.png">
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="./Recursos/logoNegro.png" alt="logo" class="logoHeader">
+            <a href="./index.html">Cerrar Seccion</a>
+        </nav>
+    </section>
+    <section class="inventario">
+            <table>
+                <tr>
+                    <th class="pisoTabla">Sabores</th>
+                    <th class="derechaTabla pisoTabla">Cantidad</th>
+                    <th class="pisoTabla">Adornos</th>
+                    <th class="pisoTabla">Cantidad</th>
+                </tr>
+                <tr>
+                    <td>Fresa</td>
+                    <td class="derechaTabla">20</td>
+                    <td>Globos</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td class="derechaTabla">10</td>
+                    <td>Letras</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Crema</td>
+                    <td class="derechaTabla">30</td>
+                    <td>Dibujos</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Frutas Mixtas</td>
+                    <td class="derechaTabla">20</td>
+                    <td>Velas</td>
+                    <td>10</td>
+                </tr>
+            </table>
+    </section>
+    <section>
+        <div class="pedidos">
+            <div class="pedido">
+                <h3>Datos de Contacto</h3>
+                <p><b>NOMBRE:</b> Pedro Perez</p>
+                <p><b>TELEFONO:</b> 412-111.33.55</p>
+                <p><b>CORREO:</b> PedroPerez@gmail.com</p>
+                <p><b>DESCRIPCION:</b> Quiero una torta de 2 Kg, con globos y letras que digan mi nombre sabor fresa</p>
+                <h3>Tamaño </h3>
+                <input type="radio" name="Tamaño1" id="2" value="2" checked>
+                <label for="2">2 Kilogramo</label>
+                <h3>Sabores</h3>
+                <label for="fresa">Fresa</label>
+                <input type="checkbox" name="fresa" id="fresa" value="fresa" checked>
+                <h3>Complementos</h3>
+                <label for="globos">Globos</label>
+                <input type="checkbox" name="globos" id="globos" value="globos" checked>
+                <label for="letras">Letras</label>
+                <input type="checkbox" name="letras" id="letras" value="letras" checked>
+                <br>
+                <br>
+                <button>Entregado</button>
+            </div>
+            <div class="pedido">
+                <h3>Datos de Contacto</h3>
+                <p><b>NOMBRE:</b> Juan Orevalos</p>
+                <p><b>TELEFONO:</b> 412-111.55.77</p>
+                <p><b>CORREO:</b> juanorevalos@gmail.com</p>
+                <p><b>DESCRIPCION:</b> Quiero una torta de 1/2 Kg de frutas mixtas con velas</p>
+                <h3>Tamaño </h3>
+                <input type="radio" name="Tamaño2" id="1/2" value="1/2" checked>
+                <label for="1/2">1/2 Kilogramo</label>
+                <h3>Sabores</h3>
+                <label for="frutasMixtas">Frutas Mixtas</label>
+                <input type="checkbox" name="frutasMixtas" id="frutasMixtas" value="frutasMixtas" checked>
+                <h3>Complementos</h3>
+                <label for="velas">Velas</label>
+                <input type="checkbox" name="velas" id="velas" value="velas" checked>
+                <br>
+                <br>
+                <button>Entregado</button>
+            </div> 
+            <div class="pedido">
+                <h3>Datos de Contacto</h3>
+                <p><b>NOMBRE:</b> Cristian Meza</p>
+                <p><b>TELEFONO:</b> 412-222.44.66</p>
+                <p><b>CORREO:</b> meza@gmail.com</p>
+                <p><b>DESCRIPCION:</b> Quiero una torta de 1 Kg de chocolate con dibujos y globos</p>
+                <h3>Tamaño </h3>
+                <input type="radio" name="Tamaño3" id="1" value="1" checked>
+                <label for="1">1 Kilogramo</label>
+                <h3>Sabores</h3>
+                <label for="chocolate">Chocolate</label>
+                <input type="checkbox" name="chocolate" id="chocolate" value="chocolate" checked>
+                <h3>Complementos</h3>
+                <label for="dibujos">Dibujos</label>
+                <input type="checkbox" name="dibujos" id="dibujos" value="dibujos" checked>
+                <label for="globos">Globos</label>
+                <input type="checkbox" name="globos" id="globos" value="globos" checked>
+                <br>
+                <br>    
+                <button>Entregado</button>
+            </div>  
+        </div>
+    </section>
+</body>
+</html>
