@@ -17,10 +17,16 @@ nav img {
 nav a{
     position: relative;
     left: 60%;
+    margin: 0 auto;
+    margin-left: 1em;
     bottom: 65%;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #000;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000;
 }
 .slider {
     width: 95%;
@@ -94,7 +100,7 @@ form div{
 .datos{
     margin: 0 auto;
     margin-top: 4%;
-    margin-left: 20%;
+    margin-left: 10%;
     padding: 0px 0px 0px 2%;
 }
 .tamanoSeleccion{
@@ -107,15 +113,13 @@ form div{
     width: 30%;
     margin: 0 auto;
     margin-top: -10em;
-    margin-left: 37.5em;
+    margin-left: 40em;
     padding: 0px 0px 0px 2%;
 }
 .complementosSeleccion{
     width: 30%;
     margin: 0 auto;
-    margin-top: -10em;
-    margin-left: 0em;
-    margin: -1% 0% 0px 60.5%;
+    margin-left: 40em;
     padding: 0px 0px 0px 2%;
 }
 input[type=button]{
