@@ -8,6 +8,7 @@ section nav{
     padding: 5px 10px 5px 10px;
     width: 100%;
     background-color: #EBC7C8;
+    
 }
 nav img {
     width: 45px;
@@ -32,7 +33,7 @@ table, th{
     position: relative;
 }
 table{
-    left: 35%;
+    margin: 0 auto;
 }
 .pedidos{
     background-color: #EBC7C8;
