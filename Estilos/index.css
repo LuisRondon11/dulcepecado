@@ -84,15 +84,12 @@ table{
 }
 .logo{
     position: absolute;
-    top: 88%;
     left: 3%;
     border-radius: 50%;
+    margin-top: -45px;
     height: 200px;
     width: 200px;
     transform: rotate(335deg);
-}
-.pedido{
-   
 }
 form div{
     width: 20%;
@@ -145,4 +142,9 @@ input[type=button]{
 }
 .horarios h2, .horarios p, .telefonos h2, .telefonos p, .mapa h2{
     text-align: center;
+}
+@media (min-width:1100px) {
+    form{
+        margin-left: 15%;
+    }
 }
